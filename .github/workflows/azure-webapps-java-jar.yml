@@ -129,7 +129,7 @@ jobs:
       permissions:
         contents: none
       runs-on: ubuntu-latest
-      needs: [deploy-2 , deploy-3 , deploy-4]
+      needs: [deploy-1 , deploy-2 , deploy-3]
       environment:
         name: 'Development'
         url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
