@@ -20,7 +20,7 @@ public class TestController {
     public void test() {
         Map<Object, Object> data = new HashMap();
         data.put("params1" , 1);
-        data.put("params2" , 2);
+        data.put("params3" , 2);
         return ;
     }
 }
